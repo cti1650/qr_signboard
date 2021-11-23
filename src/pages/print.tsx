@@ -12,12 +12,12 @@ const data = {
 
 const Home = () => {
     return (
-        <div className='container max-w-screen-md mx-auto text-sans'>
+        <div className='w-full my-0 text-sans'>
             <Head>
                 <title>QR SignBoard - Links</title>
                 <meta property='og:title' content='QR SignBoard' />
             </Head>
-            <div className="absolute top-0 left-0 p-12 w-screen bg-gray-700">
+            <div className="absolute top-0 left-0 min-w-screen w-full bg-white">
                 <article className="mx-auto bg-white" style={{ width: '172mm', height: '251mm' }}>
                     <section>
                         <h1 className="w-full text-center py-6 text-7xl">{data.title ?? 'タイトル'}</h1>
