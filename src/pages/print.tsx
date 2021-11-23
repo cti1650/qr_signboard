@@ -23,7 +23,7 @@ const Home = () => {
                         <h1 className="w-full text-center py-6 text-7xl">{data.title ?? 'タイトル'}</h1>
                         <div className="w-full"><img src={data.image} className="object-cover h-48 w-full" alt="bgimage" /></div>
                         <div className="w-full text-center py-6 text-3xl">{data.summary.map((item, i) => <p key={i}>{item}</p>) ?? '補足説明'}</div>
-                        <div className="w-full h-auto px-12"><div className="w-full h-auto py-8 bg-gray-300 border border-gray-500 rounded"><QR url={data.url} size='big' /></div></div>
+                        <div className="w-full h-auto px-12"><div className="w-full h-auto py-8 bg-gray-300 border border-gray-500 rounded"><QR url={data.url} size='normal' /></div></div>
                         <div className="w-full text-center py-6 text-3xl">上のQRコードを読み込んでください！</div>
                     </section>
                 </article>
