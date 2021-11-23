@@ -45,10 +45,10 @@ const AuthBasic = (props) => {
           <div className='container px-5 py-24 mx-auto flex flex-wrap items-center'>
             <div className='lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0'>
               <h1 className='title-font font-medium text-3xl text-gray-900'>
-                QRコード付きのポップアップを手軽に作成できるサービス！！
+                QRコード付きのポップアップを手軽に作成！
               </h1>
               <p className='leading-relaxed mt-4'>
-                フリーマーケットや路上ライブの宣伝やお店のホームページの案内などQRコードを活用したポップアップの作成をサポートするために作ったサービスです！
+                フリーマーケットや路上ライブの宣伝やお店のホームページの案内などQRコードを活用したポップアップの作成をサポートするためのサービスです！
               </p>
             </div>
             <div className='lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0'>
